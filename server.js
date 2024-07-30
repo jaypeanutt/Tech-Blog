@@ -16,7 +16,7 @@ const hbs = exphbs.create({ helpers });
 
 // Sets up the connect session through sequelize
 const sess = {
-  secret: 'Nunya Bidness',
+  secret: '',
   cookie: {},
   resave: false,
   saveUninitialized: true,
